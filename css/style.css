@@ -18,7 +18,7 @@ body {
   grid-template-rows: 13vh 2.4rem auto 12vh;
   grid-template-areas: "header" "nav" "main" "footer";
   min-height: 100vh;
-  max-width: 1000px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -98,10 +98,10 @@ main {
   align-items: center;
   background-color:rgb(255, 255, 255);
   border-radius: 15px;
-  max-width: 1000px;
+  max-width: 1080px;
   min-height: 150px;
   overflow: hidden;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 0 20px;
 }
 
 .banner-img {
@@ -114,8 +114,11 @@ main {
 .products {
   grid-area: products;
   display: flex;
+  flex-wrap: wrap;
+  flex:1;
+  justify-content: space-evenly;
   gap: 1rem;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 0 20px 0;
 }
 
 .product {
