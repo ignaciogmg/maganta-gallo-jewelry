@@ -114,9 +114,6 @@ main {
 .products {
   grid-area: products;
   display: flex;
-  /* justify-content: center; */
-  /* align-content: stretch; */
-  /* justify-items: stretch; */
   gap: 1rem;
   margin: 20px 20px 20px 20px;
 }
